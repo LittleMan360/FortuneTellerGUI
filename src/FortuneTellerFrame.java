@@ -37,7 +37,7 @@ public class FortuneTellerFrame extends JFrame
         createTopPanel();
         mainPnl.add(topPnl, BorderLayout.NORTH);
 
-        createmiddlePanel();
+        createMiddlePanel();
         mainPnl.add(middlePnl, BorderLayout.CENTER);
 
         createBottomPanel();
@@ -96,7 +96,7 @@ public class FortuneTellerFrame extends JFrame
     }
 
     // create middle panel
-    private void createmiddlePanel()
+    private void createMiddlePanel()
     {
         // create components
         middlePnl = new JPanel();
